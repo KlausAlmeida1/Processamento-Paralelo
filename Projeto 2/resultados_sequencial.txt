@@ -1,0 +1,27 @@
+DGEMM Sequencial — Rodadas multiplas
+runs=7, regenPerRun=false, seed=42
+
+N = 512
+  checksum(C) = 0x4bf37c4da0d0f731
+  tempos (s): 0.365245, 0.335495, 0.324793, 0.325240, 0.307924, 0.299769, 0.303127
+  media (s): 0.323085
+  desvio_padrao (s): 0.022770
+
+N = 1024
+  checksum(C) = 0xd86d7602fc35d66
+  tempos (s): 3.383223, 3.619685, 3.597631, 3.311063, 3.083139, 3.021325, 2.917657
+  media (s): 3.276246
+  desvio_padrao (s): 0.278315
+
+N = 2048
+  checksum(C) = 0xc1a99709b7ad1147
+  tempos (s): 38.259376, 38.241770, 38.272803, 38.222836, 38.149136, 38.506512, 38.661860
+  media (s): 38.330613
+  desvio_padrao (s): 0.183269
+
+N = 4096
+  checksum(C) = 0x58c5c404677b9404
+  tempos (s): 359.552559, 356.100090, 356.220328, 357.438989, 358.191890, 358.434098, 357.905378
+  media (s): 357.691905
+  desvio_padrao (s): 1.229622
+

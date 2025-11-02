@@ -1,0 +1,332 @@
+runs=7, regenPerRun=false, seed=42, procs=1, validate=true
+
+N = 512, procs = 1, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 1
+  checksum(C) = 0xf72a4f819a5b6d80
+  tempos (s): 0.072515, 0.072048, 0.073911, 0.080938, 0.076861, 0.075333, 0.071624
+  media (s): 0.074747
+  desvio_padrao (s): 0.003313
+
+N = 1024, procs = 1, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 1
+  checksum(C) = 0x49a920221fec718d
+  tempos (s): 0.603820, 0.611315, 0.658130, 0.609272, 0.598128, 0.596322, 0.596907
+  media (s): 0.610556
+  desvio_padrao (s): 0.021811
+
+N = 2048, procs = 1, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 1
+  checksum(C) = 0x5a2d899094e3f736
+  tempos (s): 5.626566, 5.677610, 5.493374, 5.453348, 5.834616, 5.464225, 5.571450
+  media (s): 5.588741
+  desvio_padrao (s): 0.137242
+
+N = 4096, procs = 1, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 1
+  checksum(C) = 0x366b0b3299e5d54e
+  tempos (s): 46.114484, 45.019167, 45.138293, 44.849613, 45.368821, 44.828302, 44.852417
+  media (s): 45.167300
+  desvio_padrao (s): 0.461076
+
+# Fim
+runs=7, regenPerRun=false, seed=42, procs=2, validate=true
+
+N = 512, procs = 2, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 2
+  checksum(C) = 0xf72a4f819a5b6d80
+  tempos (s): 0.037097, 0.037290, 0.037560, 0.037367, 0.037683, 0.038786, 0.040067
+  media (s): 0.037979
+  desvio_padrao (s): 0.001072
+
+N = 1024, procs = 2, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 2
+  checksum(C) = 0x49a920221fec718d
+  tempos (s): 0.321525, 0.326168, 0.306233, 0.305317, 0.312803, 0.344336, 0.307395
+  media (s): 0.317682
+  desvio_padrao (s): 0.014206
+
+N = 2048, procs = 2, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 2
+  checksum(C) = 0x5a2d899094e3f736
+  tempos (s): 2.835731, 2.870851, 2.827567, 2.898705, 2.817953, 2.942270, 2.914111
+  media (s): 2.872456
+  desvio_padrao (s): 0.047671
+
+N = 4096, procs = 2, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 2
+  checksum(C) = 0x366b0b3299e5d54e
+  tempos (s): 23.846909, 23.961041, 24.254411, 23.797323, 24.082564, 23.978716, 24.201644
+  media (s): 24.017515
+  desvio_padrao (s): 0.171532
+
+# Fim
+runs=7, regenPerRun=false, seed=42, procs=4, validate=true
+
+N = 512, procs = 4, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 4
+  checksum(C) = 0xf72a4f819a5b6d80
+  tempos (s): 0.020395, 0.020436, 0.023583, 0.022647, 0.022624, 0.020393, 0.021411
+  media (s): 0.021641
+  desvio_padrao (s): 0.001314
+
+N = 1024, procs = 4, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 4
+  checksum(C) = 0x49a920221fec718d
+  tempos (s): 0.185565, 0.178194, 0.175976, 0.182291, 0.209808, 0.180390, 0.160957
+  media (s): 0.181883
+  desvio_padrao (s): 0.014618
+
+N = 2048, procs = 4, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 4
+  checksum(C) = 0x5a2d899094e3f736
+  tempos (s): 1.841172, 1.880740, 1.805157, 1.880925, 1.815153, 1.876863, 1.914985
+  media (s): 1.859285
+  desvio_padrao (s): 0.039886
+
+N = 4096, procs = 4, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 4
+  checksum(C) = 0x366b0b3299e5d54e
+  tempos (s): 16.675602, 16.685490, 16.784303, 16.719848, 16.785217, 16.567061, 16.742811
+  media (s): 16.708619
+  desvio_padrao (s): 0.075889
+
+# Fim
+runs=7, regenPerRun=false, seed=42, procs=8, validate=true
+
+N = 512, procs = 8, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 512, procs = 8
+  checksum(C) = 0xf72a4f819a5b6d80
+  tempos (s): 0.012833, 0.013376, 0.014556, 0.014327, 0.014689, 0.013905, 0.014362
+  media (s): 0.014007
+  desvio_padrao (s): 0.000681
+
+N = 1024, procs = 8, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 1024, procs = 8
+  checksum(C) = 0x49a920221fec718d
+  tempos (s): 0.186781, 0.173764, 0.169637, 0.160794, 0.181641, 0.161850, 0.168566
+  media (s): 0.171862
+  desvio_padrao (s): 0.009664
+
+N = 2048, procs = 8, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 2048, procs = 8
+  checksum(C) = 0x5a2d899094e3f736
+  tempos (s): 1.996127, 2.019611, 1.990441, 2.000689, 2.017457, 1.993350, 1.983234
+  media (s): 2.000130
+  desvio_padrao (s): 0.013671
+
+N = 4096, procs = 8, rodada = 1
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8, rodada = 2
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8, rodada = 3
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8, rodada = 4
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8, rodada = 5
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8, rodada = 6
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8, rodada = 7
+  validação (dif_rel_max): 0.000000000000 [OK]
+N = 4096, procs = 8
+  checksum(C) = 0x366b0b3299e5d54e
+  tempos (s): 17.000665, 16.765557, 16.759024, 16.792658, 16.886222, 16.762921, 16.772776
+  media (s): 16.819975
+  desvio_padrao (s): 0.091235
+
+# Fim
