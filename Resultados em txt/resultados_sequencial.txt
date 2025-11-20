@@ -1,0 +1,27 @@
+DGEMM Sequencial OTIMIZADO (Transposição) — Rodadas multiplas
+runs=7, regenPerRun=false, seed=42
+
+N = 512
+  checksum(C) = 0x4bf37c4da0d0f731
+  tempos (s): 0.071264, 0.071023, 0.071724, 0.080262, 0.073294, 0.072256, 0.072260
+  media (s): 0.073155
+  desvio_padrao (s): 0.003223
+
+N = 1024
+  checksum(C) = 0xd86d7602fc35d66
+  tempos (s): 0.608928, 0.608862, 0.612053, 0.608655, 0.609309, 0.606944, 0.611684
+  media (s): 0.609491
+  desvio_padrao (s): 0.001794
+
+N = 2048
+  checksum(C) = 0xc1a99709b7ad1147
+  tempos (s): 4.927774, 4.897093, 5.052538, 5.088154, 7.006751, 5.265059, 4.891340
+  media (s): 5.304101
+  desvio_padrao (s): 0.762464
+
+N = 4096
+  checksum(C) = 0x58c5c404677b9404
+  tempos (s): 47.400422, 45.290711, 45.218812, 49.716692, 49.015064, 48.018596, 45.091521
+  media (s): 47.107403
+  desvio_padrao (s): 1.927633
+

@@ -1,0 +1,55 @@
+DGEMM CUDA (Naive vs Tiled) — Rodadas multiplas
+runs=7, seed=42, GPU=RTX4070
+
+N = 512, Kernel = Naive
+  checksum = 0xb4bcd4833e385fd8
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.000582, 0.000608, 0.000613, 0.000577, 0.000610, 0.000606, 0.000648, 
+  media: 0.000606 s, desvio: 0.000023 s
+
+N = 512, Kernel = Tiled
+  checksum = 0xb4bcd4833e385fd8
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.000628, 0.000624, 0.000624, 0.000598, 0.000628, 0.000626, 0.000624, 
+  media: 0.000622 s, desvio: 0.000010 s
+  Speedup vs Naive: 0.975189x
+
+N = 1024, Kernel = Naive
+  checksum = 0xab502085d6dfa7aa
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.004180, 0.004176, 0.004169, 0.004176, 0.005488, 0.004464, 0.004819, 
+  media: 0.004496 s, desvio: 0.000500 s
+
+N = 1024, Kernel = Tiled
+  checksum = 0xab502085d6dfa7aa
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.004382, 0.004390, 0.004612, 0.004383, 0.005554, 0.005030, 0.004367, 
+  media: 0.004674 s, desvio: 0.000457 s
+  Speedup vs Naive: 0.962014x
+
+N = 2048, Kernel = Naive
+  checksum = 0x8384b4ed11724278
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.031969, 0.031967, 0.031973, 0.031335, 0.028666, 0.028643, 0.028644, 
+  media: 0.030457 s, desvio: 0.001704 s
+
+N = 2048, Kernel = Tiled
+  checksum = 0x8384b4ed11724278
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.033825, 0.033619, 0.033623, 0.033792, 0.033787, 0.032412, 0.030035, 
+  media: 0.033013 s, desvio: 0.001404 s
+  Speedup vs Naive: 0.922563x
+
+N = 4096, Kernel = Naive
+  checksum = 0x34146d6d3e93046f
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.228456, 0.228539, 0.228702, 0.228977, 0.229525, 0.229232, 0.229406, 
+  media: 0.228977 s, desvio: 0.000426 s
+
+N = 4096, Kernel = Tiled
+  checksum = 0x34146d6d3e93046f
+  erro_relativo_max = 0.000000 [OK]
+  tempos: 0.242969, 0.243084, 0.242861, 0.242768, 0.242803, 0.242800, 0.242816, 
+  media: 0.242872 s, desvio: 0.000114 s
+  Speedup vs Naive: 0.942790x
+

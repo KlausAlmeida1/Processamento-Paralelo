@@ -1,0 +1,99 @@
+DGEMM OpenMP OTIMIZADO (Transposição) — Rodadas multiplas
+runs=7, regenPerRun=false, seed=42
+
+N = 512, threads = 2
+  checksum(C) = 0x4bf37c4da0d0f731
+  tempos (s): 0.037800, 0.036536, 0.036631, 0.036425, 0.036411, 0.036436, 0.036362
+  media (s): 0.036657
+  desvio_padrao (s): 0.000512
+
+N = 512, threads = 4
+  checksum(C) = 0x4bf37c4da0d0f731
+  tempos (s): 0.023853, 0.020358, 0.021525, 0.021447, 0.023814, 0.019353, 0.019879
+  media (s): 0.021461
+  desvio_padrao (s): 0.001799
+
+N = 512, threads = 8
+  checksum(C) = 0x4bf37c4da0d0f731
+  tempos (s): 0.010755, 0.010957, 0.010934, 0.011020, 0.011021, 0.009800, 0.009517
+  media (s): 0.010572
+  desvio_padrao (s): 0.000636
+
+N = 512, threads = 12
+  checksum(C) = 0x4bf37c4da0d0f731
+  tempos (s): 0.007786, 0.011974, 0.008729, 0.006602, 0.006794, 0.006444, 0.006542
+  media (s): 0.007839
+  desvio_padrao (s): 0.002006
+
+N = 1024, threads = 2
+  checksum(C) = 0xd86d7602fc35d66
+  tempos (s): 0.311790, 0.303263, 0.306339, 0.299208, 0.302053, 0.299084, 0.301091
+  media (s): 0.303261
+  desvio_padrao (s): 0.004514
+
+N = 1024, threads = 4
+  checksum(C) = 0xd86d7602fc35d66
+  tempos (s): 0.171970, 0.165199, 0.157997, 0.171135, 0.177330, 0.162895, 0.162038
+  media (s): 0.166938
+  desvio_padrao (s): 0.006761
+
+N = 1024, threads = 8
+  checksum(C) = 0xd86d7602fc35d66
+  tempos (s): 0.083748, 0.080913, 0.083486, 0.086401, 0.085710, 0.082538, 0.079531
+  media (s): 0.083190
+  desvio_padrao (s): 0.002451
+
+N = 1024, threads = 12
+  checksum(C) = 0xd86d7602fc35d66
+  tempos (s): 0.052040, 0.053675, 0.051749, 0.055019, 0.052489, 0.052036, 0.052281
+  media (s): 0.052756
+  desvio_padrao (s): 0.001177
+
+N = 2048, threads = 2
+  checksum(C) = 0xc1a99709b7ad1147
+  tempos (s): 2.639720, 2.720612, 2.699130, 2.680149, 2.682066, 2.663589, 2.658095
+  media (s): 2.677623
+  desvio_padrao (s): 0.026931
+
+N = 2048, threads = 4
+  checksum(C) = 0xc1a99709b7ad1147
+  tempos (s): 1.409626, 1.406472, 1.407083, 1.498936, 1.500024, 1.390258, 1.401715
+  media (s): 1.430588
+  desvio_padrao (s): 0.047481
+
+N = 2048, threads = 8
+  checksum(C) = 0xc1a99709b7ad1147
+  tempos (s): 0.674928, 0.699325, 0.699474, 0.683547, 0.673551, 0.677209, 0.675402
+  media (s): 0.683348
+  desvio_padrao (s): 0.011424
+
+N = 2048, threads = 12
+  checksum(C) = 0xc1a99709b7ad1147
+  tempos (s): 0.504722, 0.494158, 0.495354, 0.492704, 0.493282, 0.491893, 0.499846
+  media (s): 0.495994
+  desvio_padrao (s): 0.004651
+
+N = 4096, threads = 2
+  checksum(C) = 0x58c5c404677b9404
+  tempos (s): 23.970624, 24.034715, 24.131470, 24.214731, 24.054556, 23.992096, 24.014990
+  media (s): 24.059026
+  desvio_padrao (s): 0.085962
+
+N = 4096, threads = 4
+  checksum(C) = 0x58c5c404677b9404
+  tempos (s): 12.067691, 12.002738, 11.952488, 11.906224, 12.007507, 11.995360, 12.118432
+  media (s): 12.007206
+  desvio_padrao (s): 0.069978
+
+N = 4096, threads = 8
+  checksum(C) = 0x58c5c404677b9404
+  tempos (s): 6.012736, 6.055930, 6.055260, 5.908558, 5.863004, 5.843959, 5.992440
+  media (s): 5.961698
+  desvio_padrao (s): 0.089079
+
+N = 4096, threads = 12
+  checksum(C) = 0x58c5c404677b9404
+  tempos (s): 6.111512, 6.570955, 6.306938, 6.389154, 6.476771, 6.156085, 6.170516
+  media (s): 6.311705
+  desvio_padrao (s): 0.175455
+

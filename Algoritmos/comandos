@@ -1,0 +1,14 @@
+Sequencial:
+g++ -O3 sequencial.cpp -o sequencial
+./sequencial --runs 7 --sizes 512,1024,2048,4096
+
+OpenMP:
+g++ -O3 -fopenmp paralelo.cpp -o paralelo
+./paralelo --runs 7 --sizes 512,1024,2048,4096
+
+MPI:
+.sh do projeto anterior
+
+cuda:
+nvcc -O3 -arch=sm_89 cuda.cu -o cuda
+./cuda --runs 7 --sizes 512,1024,2048,4096 --validate
